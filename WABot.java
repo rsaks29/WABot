@@ -14,8 +14,9 @@ public class WABot {
         bot.mousePress(InputEvent.BUTTON1_MASK);
         bot.mouseRelease(InputEvent.BUTTON1_MASK);
 
-        for (int i = 0; i
-        sendKeys(bot, "Hello");
+        for (int i = 0; i<1; i++) {
+            sendKeys(bot, "Hello");
+        }
     }
     public static void sendKeys(Robot bot, String whatToType) {
         for (int i=0; i<whatToType.length(); i++) {
